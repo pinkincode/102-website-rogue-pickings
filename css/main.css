@@ -1,0 +1,201 @@
+/***** BASE STYLE *****/
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/*****GRID*****/
+.container {
+ max-width: 1200px;
+ width: 90%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+ margin: 0 auto;
+}
+
+/*****HEADER*****/
+
+header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  height: auto;
+  border-bottom: .20em solid #77a466;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 0 2.5em 0;
+ 
+}
+header h1 {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 2em 1.2em 0 0;
+}
+header h1 span {
+  color: #77a466;
+  
+}
+header nav {
+
+  padding: 3.5em 0 0 0;
+
+}
+header nav ul {
+  margin: 0 0 0 0;
+  padding: 0 1.2em 0 0;
+}
+
+header nav ul li  {
+  font-weight: bold;
+  font-size: .90em;
+  Text-transform: uppercase;
+  padding: 0 1.2em 0 0;
+  display: inline;
+}
+
+header nav ul li a {
+  color: #77a466;
+  text-decoration: none;
+}
+/*****WELCOME-ABOUT*****/
+
+.welcome {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border-bottom: .10em solid #000000;
+  padding-bottom: 1em;
+}
+
+.welcome-image {
+  height: auto;
+  
+} 
+.welcome-image img {
+  width: 100%;
+  border-bottom: .20em solid #77a466;
+}
+.welcome-title h2 {
+  color: #77a466;
+  font-size: 1.5em;
+  text-align: left;
+  padding: .40em 0 0 0;
+  Text-transform: uppercase;
+  
+}
+.welcome-title p {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 0 0 1.2em 0; 
+  
+}
+.about{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 1.2em 0 1.2em 0;
+
+}
+.section-one, .section-two, .section-three {
+ width: 33%;
+ height: auto;
+ 
+}
+.section-one {
+  padding-bottom: 2em;
+}
+.section-three {
+  padding-bottom: 3.5em;
+}
+
+.section-one h4 {
+  font-size: .9em;
+  padding: .15em 1.8em;
+  Text-transform: uppercase;
+}
+.section-one ul {
+  list-style: none;
+	padding: 0 0 0 1.2em ;
+}
+.food li {
+  padding: .9em  0 0 0;
+	color:#77a466;
+}
+.section-two {
+  border-left: .10em solid #000000;
+  border-right: .10em solid #000000;
+}
+
+.section-two h4 {
+  font-size: .9em;
+  padding: .12em 1.8em 0 1.2em;
+  Text-transform: uppercase;
+}
+
+.reviews  {
+  font-size: 1em;
+  line-height:  1.4em;
+  padding: 0 1.8em 0 1.2em;
+}
+
+.section-three h4 {
+  font-size: .9em;
+  padding: .15em 2em;
+  Text-transform: uppercase;
+}
+
+.address {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: .15em 2em;
+}
+footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: .80em;;
+  text-transform: uppercase;
+  height: 50px;
+	border-top: .10em solid #000000;
+	margin: 0 auto;
+  width:100%;
+  padding: 1.2em;
+}
+
+footer span{
+  font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .90em;
+}
+/****ABOUT-PAGE****/
+
+.more-food {
+  max-width: 1200px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: .20em solid #77a466;
+  padding: 0;
+}
+.kale, .burger, .potatos {
+flex-grow: inherit;
+padding: 0 1.65em 0 
+
+ 
+}
+
